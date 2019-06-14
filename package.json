@@ -1,0 +1,17 @@
+{
+  "name": "coinapi-external-adapter",
+  "version": "2.0.0",
+  "author": "Connor Maloney (maloneydev@outlook.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha  --timeout 0"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
